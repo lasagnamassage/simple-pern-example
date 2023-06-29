@@ -11,4 +11,4 @@
 - Nodemon globally installed (`npm i -g`)
 - Postres DBMS (https://www.postgresql.org/download/)
 - Homebrew (https://brew.sh/)
-- psql (brew install postgres@14)
+- psql (`brew install postgres@14`)
