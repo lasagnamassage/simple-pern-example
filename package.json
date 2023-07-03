@@ -5,9 +5,10 @@
   "main": "server.js",
   "scripts": {
     "server": "cd server/src && nodemon server.js",
-    "client": "cd client/src && vite start",
+    "client": "cd client && vite dev",
     "build-client": "cd client && vite",
-    "setup": "npm i && psql -f create-users.sql"
+    "setup": "npm i && psql -f create-users.sql",
+    "start": "npm run server && npm run client"
   },
   "author": "Ashaun Thomas",
   "license": "ISC",

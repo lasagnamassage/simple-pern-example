@@ -3,7 +3,8 @@
 ## Installation Steps
 
 - Run `npm run setup` to install node dependencies and run premade table creation sql statement
-- Run `npm run start`
+- Run `npm run server` 
+- In another terminal, run `npm run client`
 - Open http://localhost:3000
 
 ### System dependencies
